@@ -172,7 +172,9 @@ You find step by step to how to clone a repository from GitHub to your computer 
 All content was written by the developer.
 
 ### Media
+Background image <span>Photo by <a href="https://unsplash.com/@saturday_sun?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">.</a> on <a href="https://unsplash.com/s/photos/dublin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
+<span>Photo by <a href="https://unsplash.com/@rorymcphoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">R Nolan</a> on <a href="https://unsplash.com/s/photos/dublin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
 
 
 
