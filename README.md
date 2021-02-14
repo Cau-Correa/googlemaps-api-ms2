@@ -9,28 +9,28 @@
 
 ## UX
 
-The aim of this project is to serve as a tool for the user, helping them to make decisions about entertainment, consuming and culture keeping it local.
-In contrast with the user current location, the second map open the horizons to the whole Republic of Ireland.
+The aim of this project is to serve as a tool for the user, helping them to to find hotels with a simple search by city and country with results showing in the map that is centered in Ireland.
+Another map of ireland shows heritage sites in Ireland, as an option to the user.
 
 
 ### User Stories
 #### First time visitor goals:
-* As a First Time Visitor, I want to find places or businnesses around me.
+* As a First Time Visitor, I want to find a hotel in the Republic of Ireland.
 * As a First Time Visitor, I want to learn where are located the heritage sites in Ireland.
  
 #### Returning visitor goals:
-* As a Returning Visitor, I want to know what is offered in my current location.
+* As a Returning Visitor, I want to get details about hotels to plan my holidays.
 * As a Returning Visitor, I want to increase my knowledge about Ireland culture.
 
 #### Frequent user goals:
-* As a Frequent User, I can take parte in the local comunity.
+* As a Frequent User, I want to get information about hotel to find the best place to stay.
 * As a Frequent User, 
 
 
 ## Features
 
 This website was planned for mobile first, with clean and simple design.
-In the first page, is the main parte of this project wirh a map where the user can search in the surounding area where they are located.
+In the first page, is the main parte of this project a map where the user can search in for hotels in a specified place within a given country and show details of each hotel.
 The about section explain the website and guide the user on how to use it.
 With the second map the user gets a bird's eye view of the Ireland's heritage sites.
 
@@ -65,7 +65,7 @@ Future features
 
 * ### Wireframe.
 
-![wireframe](/readme-images/wireframe.png)
+![wireframe](/readme-images/desktop-wireframe.png)
 
 
 ## Languages used
@@ -172,10 +172,6 @@ You find step by step to how to clone a repository from GitHub to your computer 
 All content was written by the developer.
 
 ### Media
-Background image <span>Photo by <a href="https://unsplash.com/@saturday_sun?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">.</a> on <a href="https://unsplash.com/s/photos/dublin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
-<span>Photo by <a href="https://unsplash.com/@rorymcphoto?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">R Nolan</a> on <a href="https://unsplash.com/s/photos/dublin?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-
 
 
 

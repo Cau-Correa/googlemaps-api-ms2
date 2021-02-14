@@ -1,3 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 #map {
     height: 500px;
+}
+
+
+.bg-color {
+    background-color: #ced4da;
+}
+
+.heritage {
+    width: auto;
+    height: 400;
 }
