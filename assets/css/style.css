@@ -1,19 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
+    padding: 0 !important;
 }
 
+.section-container {
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .headings {
     margin-top: 20px;
+    padding: 0;
 }
-
-.full-height {
-  height: 100%;
-}
-
-#map {
-    height: 500px;
-}
-
 
 .bg-color {
     background-color: #ced4da;
@@ -23,10 +23,103 @@ body{
     background-color: #adb5bd;
 }
 
-.heritage {
-    width: auto;
-    height: 400;
+/*------------Heritage Map-----------*/
+#heritage-map {
+    width: 100%;
+    height: 400px;
 }
 
+/*------------Google Map-----------*/
+#map {
+  height: 500px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+table {
+  font-size: 12px;
+}
+
+.hotel-search {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #ced4da;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 0;
+  position: relative;
+  top: 0;
+  z-index: 1;
+  max-width: 400px;
+}
+
+#listing {
+  position: relative;
+  width: 200px;
+  height: 470px;
+  overflow: auto;
+  top: 20px;
+  cursor: pointer;
+  overflow-x: hidden;
+}
+
+#locationField {
+  -webkit-box-flex: 1 1 190px;
+  -ms-flex: 1 1 190px;
+  flex: 1 1 190px;
+  margin: 0 8px;
+  padding: 0;
+}
+
+#controls {
+  -webkit-box-flex: 1 1 140px;
+  -ms-flex: 1 1 140px;
+  flex: 1 1 140px;
+}
+
+#autocomplete {
+  width: 100%;
+}
+
+#country {
+  width: 100%;
+}
+
+.placeIcon {
+  width: 20px;
+  height: 34px;
+  margin: 4px;
+}
+
+.hotelIcon {
+  width: 24px;
+  height: 24px;
+}
+
+#resultsTable {
+  border-collapse: collapse;
+  width: auto;
+}
+
+#rating {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.iw_table_row {
+  height: 18px;
+}
+
+.iw_attribute_name {
+  font-weight: bold;
+  text-align: right;
+}
+
+.iw_table_icon {
+  text-align: right;
+}
 
 

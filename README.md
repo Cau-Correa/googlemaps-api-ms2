@@ -1,4 +1,4 @@
-# Interactive Frontended Development Milestone Project - 2
+# Milestone Project 2 - Google Maps API
 
 
 [View the live project here.](project url)
@@ -9,8 +9,8 @@
 
 ## UX
 
-The aim of this project is to serve as a tool for the user, helping them to to find hotels with a simple search by city and country with results showing in the map that is centered in Ireland.
-Another map of ireland shows heritage sites in Ireland, as an option to the user.
+The aim of this project is to serve as a tool for the user, helping them to to find hotels with a simple search by city and country with results showing in the map that is centred in Ireland.
+Another map of Ireland shows heritage sites in Ireland, as an option to the user.
 
 
 ### User Stories
@@ -29,8 +29,8 @@ Another map of ireland shows heritage sites in Ireland, as an option to the user
 
 ## Features
 
-This website was planned for mobile first, with clean and simple design.
-In the first page, is the main parte of this project a map where the user can search in for hotels in a specified place within a given country and show details of each hotel.
+This website was planned for mobile first, with clean and simple design, and heavily relied on google maps javaScript API samples.
+In the first page, is the main part of this project a map where the user can search in for hotels with place autocomplete. The search can be in a specified place within a given country and show details of each hotel.
 The about section explain the website and guide the user on how to use it.
 With the second map the user gets a bird's eye view of the Ireland's heritage sites.
 
@@ -52,7 +52,7 @@ Future features
 ## Design
 
 * ### Colour Scheme
-
+It was used light gray as the background color to not compete with the maps content.
 
 
 * ### Typography
@@ -60,6 +60,7 @@ Future features
  
 
 * ### Design choices
+Navbar in small screen was kept without dropdown menu because it has only 3 items and it doesn't take much space, this way the menu stays visible all the time.
 
 
 
@@ -165,24 +166,25 @@ You find step by step to how to clone a repository from GitHub to your computer 
 
 ## Credits
 
-### Code
+* ### Code
+This project was heavily relied on google maps javaScript API samples.
 
 
-### Content
+* ### Content
 All content was written by the developer.
 
-### Media
+* ### Media
+GeoJson Map [data.gov.ie](https://data.gov.ie/dataset/heritage-osi-national-250k-map-of-ireland2/resource/6f42c61c-bfaa-4047-a81a-7886b11d740f?view_id=40072f09-14fe-4b97-ba1a-10019d885f8c)
 
 
 
 
 
 
-### Acknowledgements
+* ### Acknowledgements
 
 My Mentor Reuben Ferrante for his help and feedback.
 
 Tutor support at Code Institute for their support.
 
 To the Slack Community for helping me with my silly questions.
-

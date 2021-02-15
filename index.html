@@ -7,16 +7,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     
     <title>Hotel Search Ireland</title>
     
 </head>
-
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
-        <a class="navbar-brand text-uppercase" href="index.html">Staying in Ireland?</a>
-  
+        <a class="navbar-brand text-uppercase" href="#">Staying in Ireland?</a>
         <div class="justify-content-end ml-auto">
             <ul class="navbar-nav list-inline">
                 <li class="nav-item active">
@@ -29,25 +28,82 @@
                     <a class="nav-link" href="heritage.html">Heritage</a>
                 </li>
             </ul>
-    </div>
+        </div>
     </nav>
     <section>
         <div class="container-fluid bg-color">
             <div class="row">
-                <div class="col text-center headings">
+                <div class="col-12 text-center headings">
                     <h1>Find hotels:</h1>
-                    <h2>Search for hotels in a specified place within a given country</h2>
+                    <h2>Search for hotels in Ireland or in a specified place within a given country</h2>
+                </div>
+            </div>
+            <div class="row hotel-search">
+                <div id="findhotels" class="col-6 center">
+                    <div id="locationField">
+                        <input id="autocomplete" placeholder="Enter a city..." type="text" />
+                    </div>
+                </div>    
+                <div id="controls" class="col-6">
+                    <select id="country">
+                        <option value="all">All</option>
+                        <option value="au">Australia</option>
+                        <option value="br">Brazil</option>
+                        <option value="ca">Canada</option>
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                        <option value="mx">Mexico</option>
+                        <option value="nz">New Zealand</option>
+                        <option value="it">Italy</option>
+                        <option value="za">South Africa</option>
+                        <option value="es">Spain</option>
+                        <option value="pt">Portugal</option>
+                        <option value="us">U.S.A.</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="ie" selected>Ireland</option>
+                    </select>
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <div id="map">
-                    </div>
+                <div class="col-12 col-md-6">
+                    <div id="map"></div>
                 </div>
+                <div>
+                    <div id="listing" class="col-12">
+                        <table id="resultsTable">
+                            <tbody id="results"></tbody>
+                        </table>
+                    </div>
+                    <div style="display: none">
+                        <div id="info-content">
+                            <table>
+                                <tr id="iw-url-row" class="iw_table_row">
+                                    <td id="iw-icon" class="iw_table_icon"></td>
+                                    <td id="iw-url"></td>
+                                </tr>
+                                <tr id="iw-address-row" class="iw_table_row">
+                                    <td class="iw_attribute_name">Address:</td>
+                                    <td id="iw-address"></td>
+                                </tr>
+                                <tr id="iw-phone-row" class="iw_table_row">
+                                    <td class="iw_attribute_name">Telephone:</td>
+                                    <td id="iw-phone"></td>
+                                </tr>
+                                <tr id="iw-rating-row" class="iw_table_row">
+                                    <td class="iw_attribute_name">Rating:</td>
+                                    <td id="iw-rating"></td>
+                                </tr>
+                                <tr id="iw-website-row" class="iw_table_row">
+                                    <td class="iw_attribute_name">Website:</td>
+                                    <td id="iw-website"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div> 
             </div>
         </div>
-    </section> 
-    
+    </section>
     <footer class="page-footer font-small bg-color-footer">
         <div class=" text-center py-4">
             <p>© 2021 Copyright: <br>All Rights Reserved</p>
@@ -56,11 +112,10 @@
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>  
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBOzrJfFT8bjuoZhqTDV75Byhb5nZE7Uc&callback=initMap" 
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBOzrJfFT8bjuoZhqTDV75Byhb5nZE7Uc&callback=initMap&libraries=places&v=weekly" 
     type="text/javascript"></script>
-   
+    
 </body>
 </html>
