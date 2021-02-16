@@ -10,13 +10,14 @@ body{
     -o-background-size: cover;
     background-size: cover;
 }
+
 .headings {
     margin-top: 20px;
     padding: 0;
 }
 
 .bg-color {
-    background-color: #ced4da;
+    background-color: #f6fbff;
 }
 
 .bg-color-footer {
@@ -54,16 +55,6 @@ table {
   top: 0;
   z-index: 1;
   max-width: 400px;
-}
-
-#listing {
-  position: relative;
-  width: 200px;
-  height: 470px;
-  overflow: auto;
-  top: 20px;
-  cursor: pointer;
-  overflow-x: hidden;
 }
 
 #locationField {
@@ -121,5 +112,4 @@ table {
 .iw_table_icon {
   text-align: right;
 }
-
 
