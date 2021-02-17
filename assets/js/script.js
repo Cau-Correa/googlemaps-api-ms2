@@ -1,5 +1,5 @@
 /*
-Google Maps API sample was used and customized for the website needs
+Google Maps API sample were used and customized for the website needs
 */
 let map;
 let placesService;

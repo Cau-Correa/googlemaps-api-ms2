@@ -1,7 +1,7 @@
 # Milestone Project 2 - Google Maps API
 
 
-[View the live project here.](project url)
+[View the live project here.](https://cau-correa.github.io/googlemaps-api-ms2/)
 
 
 
@@ -9,8 +9,8 @@
 
 ## UX
 
-The aim of this project is to serve as a tool for the user, helping them to to find hotels with a simple search by city and country with results showing in the map that is centred in Ireland.
-Another map of Ireland shows heritage sites in Ireland, as an option to the user.
+The aim of this project is to serve as a tool for the user, helping them to to find hotels with a simple search by city and country with results showing in the map that for defaoult is centred in Ireland.
+Another map of Ireland shows heritage sites of national and turist interest in Ireland, as an option to the user make their decision where to stay.
 
 
 ### User Stories
@@ -19,7 +19,7 @@ Another map of Ireland shows heritage sites in Ireland, as an option to the user
 * As a First Time Visitor, I want to learn where are located the heritage sites in Ireland.
  
 #### Returning visitor goals:
-* As a Returning Visitor, I want to get details about hotels to plan my holidays.
+* As a Returning Visitor, I want to get details about hotels in different countries to plan my holidays.
 * As a Returning Visitor, I want to increase my knowledge about Ireland culture.
 
 #### Frequent user goals:
@@ -44,15 +44,14 @@ Future features
 2. [GitHub](https://github.com) Used to store the project after it has been pushed from Git.
 3. [Boostrap](https://getbootstrap.com/) The Bootstrap library was used throughout the project to assist with the responsiveness and styling of the website.
 4. [FontAwesome](https://fontawesome.com/) The project uses Font Awesome icons.
-5. [Google Fonts](https://fonts.google.com/) Google fonts were used to homogenize the project. The font imported to the style.css file was 'Overpass'.
-6. [Google Maps](https://www.google.com/maps) Google maps were used to show Dublin in the contact section.
-7. [jQuery](https://jquery.com/) jQuery was used to make the navbar responsive and also used for the modal dialog.
+5. [Google Fonts](https://fonts.google.com/) Google fonts were used to homogenize the project. The font imported to the style.css file was 'Oswald'.
+6. [Google Maps Platform APIs](https://developers.google.com/maps/documentation) Google maps and  places API.
 
 
 ## Design
 
 * ### Colour Scheme
-It was used light gray as the background color to not compete with the maps content.
+It was used light color in the background to not distract the user neither compete with the maps content.
 
 
 * ### Typography
@@ -64,9 +63,18 @@ Navbar in small screen was kept without dropdown menu because it has only 3 item
 
 
 
-* ### Wireframe.
+* ### Wireframes.
+Desktop Wireframe
 
 ![wireframe](/readme-images/desktop-wireframe.png)
+
+Tablet Wireframe
+
+![wireframe](/readme-images/tablet-wireframe.png)
+
+Mobile Wireframe
+
+![wireframe](/readme-images/mobile-wireframe.png)
 
 
 ## Languages used
@@ -167,8 +175,7 @@ You find step by step to how to clone a repository from GitHub to your computer 
 ## Credits
 
 * ### Code
-This project was heavily relied on google maps javaScript API samples.
-
+This project used Google Maps and Google Place API samples customized for the website needs.
 
 * ### Content
 All content was written by the developer.
@@ -177,14 +184,9 @@ All content was written by the developer.
 GeoJson Map [data.gov.ie](https://data.gov.ie/dataset/heritage-osi-national-250k-map-of-ireland2/resource/6f42c61c-bfaa-4047-a81a-7886b11d740f?view_id=40072f09-14fe-4b97-ba1a-10019d885f8c)
 
 
-
-
-
-
 * ### Acknowledgements
 
-My Mentor Reuben Ferrante for his help and feedback.
+My Mentor Reuben Ferrante for his help and feedback during very early calls.
 
 Tutor support at Code Institute for their support.
 
-To the Slack Community for helping me with my silly questions.
