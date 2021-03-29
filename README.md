@@ -68,14 +68,14 @@ Mobile Wireframe
 * JavaScript
 
 
-## Testing
+## Testing - * Testing of all user stories 
 
-- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
-- The Website was tested on Google Chrome, Windows, Linux Opera, and Safari browsers.
-- The website was viewed on a variety of devices such as iMac, Dell laptop, iPad Air1, Samsung S9, iPhone8, iPhoneX, iphone12 pro & galaxy A30.
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+The Website was tested on Google Chrome, Windows, Linux Opera, and Safari browsers.
+The website was viewed on a variety of devices such as iMac, Dell laptop, iPad Air1, Samsung S9, iPhone8, iPhoneX, iphone12 pro & galaxy A30.
 
 
-### Testing User Stories from User Experience (UX) Section
+### 1 -Testing User Stories from User Experience (UX) Section
 
 #### First Time Visitor Goals
 ##### * As a First Time Visitor, I want to find a hotel in the Republic of Ireland.
@@ -102,7 +102,7 @@ They can click on a specific mark on the map and see useful information about th
 ![Screenshot UX bird's eye view heritage sites](/readme-images/user-story-frequent-user-1.png) 
 
 
-## Validation
+### 2- Code Validation - * Code validation (CSS/HTML/JS using online tools like https://jigsaw.w3.org/css-validator/ and JSHint) 
 
 To ensure there were no syntax errors in the project, the [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) and [Jshint](https://jshint.com/) were used to validate every page of the project.
 
@@ -111,7 +111,6 @@ All HTML pages of this project went through *W3C Markup validation service*, Wit
 
 * W3C CSS Validator
 The CSS of this project went through *W3C CSS Validation Service*, With no error found.
-
 * Jshint
 No errors found.
 
@@ -122,6 +121,33 @@ Desktop device:
 
 Mobile device:
 ![lighthouse report mobile](/readme-images/lighthouse-mobile-report.png)
+
+
+### 3- Manual Testing - 
+
+* Manual testing of each section of the site (such as buttons, links etc) 
+
+
+### 4- Testing Site Responsiveness - 
+
+* Testing site responsiveness using a site like https://responsivedesignchecker.com/ 
+
+
+### 5- Bugs Documentation - 
+
+* Documentation of any bugs encountered and their resolution steps
+
+
+### 6- Expected Bugs Documentations - * Documentation of any open bugs Expected -Feature is expected to do X when the user does Y Testing - 
+Tested the feature by doing Y Result - The feature did not respond due to A,B,C or Result - 
+The feature acted as normally and it did Y Fix - I did Z to the code because something was missing
+
+when the home button and icon on top of the page is clicked supose to opem the homepage, 
+but it was breaking the map's functionality, with following error appears on the console: 
+"Google Maps JavaScript API error: RefererNotAllowedMapError https://developers.google.com/maps/documentation/javascript/error-messages#referer-not-allowed-map-error 
+Your site URL to be authorized: https://caucorrea.github.io/googlemaps-api-ms2/index.html".
+I acessed the Google Clond Plataform and added the https://caucorrea.github.io/googlemaps-api-ms2/index.html to the API restricted access. 
+Now home button and Icon are working as expected, loading the homepage, when they are clicked on. No alteration on the code was needed
 
 
 ## Deployment
