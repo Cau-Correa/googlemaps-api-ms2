@@ -133,21 +133,50 @@ Mobile device:
 * Testing site responsiveness using a site like https://responsivedesignchecker.com/ 
 
 
-### 5- Bugs Documentation - 
+### 5- Bugs Documentation - Documentation of any bugs encountered and their resolution steps 
 
-* Documentation of any bugs encountered and their resolution steps
+* Map not working when access Home page through the Icon and Home button on top of the page.
+
+When the home button and icon on top of the page was clicked supose to open a fully working map 
+in the Home page, the map's functionality was broken, with following error appearing on the console: 
+"Google Maps JavaScript API error: RefererNotAllowedMapError https://developers.google.com/maps/documentation/javascript/error-messages#referer-not-allowed-map-error 
+Your site URL to be authorized: https://caucorrea.github.io/googlemaps-api-ms2/index.html".
+I acessed the Google Clond Plataform and added the https://caucorrea.github.io/googlemaps-api-ms2/index.html to the API restricted access. No alteration on the code was needed.
+
+Note: That fixing became obesolete after I've changed the files names in the href attributes for the absolute URL of each page.
+I did that after having problems in 404 error page redirecting the user to the Home page. The link had index.html in it's href attribute.
+
+* 404 error page not loading.
+
+On the making a 404 page, first added the html page (not-found-page.html) then I created the .htaccess file with one line code in it: 
+(ErrorDocument 404/not-found-page.html). To test if it was loading correctly, I tried to access a nonexistent 
+page adding random characters at the end of the URL. Instead of the costume 404 page a default error page was loading. 
+In the Slack community I found a pin post about creating the 404 error page, using a 404.md file with one line code: in it
+(permalink: /404.html). Then I deleted the .htaccess file and renamed the html page to 404.html. 
+What seams to be the right way to create a 404 error page.
+
+* 404 error page not redirecting to Home page.
+
+When I access a nonexistent page adding random characters at the end of the URL of the site a 404 error page loads with a message: 
+This page isn't available. Sorry about that. / Click here to go back to the Home Page / 404 error. 
+when I clicked in the link it wasn't been redirecting to the Home page as it supposed to, a default 404 error 
+message was showing, tried to search for a solution on Slack Community what was unsuccessful, then I went for tutor assistence, 
+the tutor Stephen could identify that the problem was in the link. In the href attribute I added index.html. Instead of redirecting 
+to the Home page it was creating a broken link, once I replaced index.html with the site's absolute URL the problem was solved.
 
 
 ### 6- Expected Bugs Documentations - * Documentation of any open bugs Expected -Feature is expected to do X when the user does Y Testing - 
 Tested the feature by doing Y Result - The feature did not respond due to A,B,C or Result - 
 The feature acted as normally and it did Y Fix - I did Z to the code because something was missing
 
-when the home button and icon on top of the page is clicked supose to opem the homepage, 
-but it was breaking the map's functionality, with following error appears on the console: 
-"Google Maps JavaScript API error: RefererNotAllowedMapError https://developers.google.com/maps/documentation/javascript/error-messages#referer-not-allowed-map-error 
-Your site URL to be authorized: https://caucorrea.github.io/googlemaps-api-ms2/index.html".
-I acessed the Google Clond Plataform and added the https://caucorrea.github.io/googlemaps-api-ms2/index.html to the API restricted access. 
-Now home button and Icon are working as expected, loading the homepage, when they are clicked on. No alteration on the code was needed
+* Testing bug with map fuintionality.
+Now home button and Icon are working as expected, loading the homepage, when they are clicked on. No alteration on the code was needed.
+
+* Testing if costum 404 page is loading.
+After doing that the 404 error page started to load when I tried to access a nonexistent page in the site.
+
+* Testing redirecting user to Home page from 404 error message.
+Now the user can go back to the Home page by clicling in the link/message (Click here to go back to the Home Page).
 
 
 ## Deployment
