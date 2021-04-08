@@ -5,7 +5,7 @@
 
 ![Screenshot Responsive](/readme-images/responsive-image.png)
 ## UX
-The aim of this project is to serve as a tool for the user, helping them to find hotels with a simple search by city and country with results showing in the map that for default is centered in Ireland.
+The aim of this project is to serve as a tool for the user, helping them to find hotels with a simple search by city and country with results showing in the map that for default is centred in Ireland.
 Another map of Ireland shows heritage sites of national and tourist interest in Ireland, as an option to the user make their decision where to stay.
 
 ### User Stories
@@ -131,59 +131,66 @@ Mobile device:
 ![lighthouse report mobile](/readme-images/lighthouse-mobile-report.png)
 
 
-### 3- Manual Testing - 
+### 3- Manual Testing 
 
-* Manual testing of each section of the site (such as buttons, links etc) 
+I proceeded with manual testing of every and each button, link and text box in 
+the website in all pages. No problems detected with the website working as supposed to.
 
+* The hotel Icon on the top left of the page redirect the user to the Home page been clicked from any of the 3 pages.
+* The menu bar with Home, About and Heritage are working as expected opening their respective pages.
+* The message/link in the 404 page, when clicked redirects the user to the Home page.
+* The map's functionality was also was tested. Results can be found in the UX user stories.
+ 
 
 ### 4- Testing Site Responsiveness 
 
-This project responsiviness was tested with the site like https://responsivedesignchecker.com/ with 
-visualisation of this project in many devices sizes and brands, like desktops, notebooks, tablets and moliles. 
+This project responsiveness was tested with the site like https://responsivedesignchecker.com/ with 
+visualisation of this project in many devices sizes and brands, like desktops, notebooks, tablets and mobiles. 
 This project seams to have no problems in any size or brand keeping with a consistent 
-responsiviness in all of them. Down below I will add screenshot of some of the devices tested.
+responsiveness in all of them. Down below I will add screenshot of some of the devices tested.
 
-Responsiviness 24 inches desktop
+Device - 24 inches desktop
 
-![responsiviness 24 inches desktop](/readme-images/24-inch-desktop.png)
+![responsiveness 24 inches desktop](/readme-images/24-inch-desktop.png)
 
-Responsiviness 19 inches desktop
+Device - 19 inches desktop
 
-![responsiviness 19 inches desktop](/readme-images/19-inch-desktop.png)
+![responsiveness 19 inches desktop](/readme-images/19-inch-desktop.png)
 
-Responsiviness 13 inches notebook
+Device - 13 inches notebook
 
-![responsiviness 13 inches notebook](/readme-images/13-inch-notebook.png)
+![responsiveness 13 inches notebook](/readme-images/13-inch-notebook.png)
 
-Responsiviness Apple Ipad mini
+Device - Apple Ipad mini
 
-![responsiviness apple ipad mini](/readme-images/apple-ipad-mini.png)
+![responsiveness apple ipad mini](/readme-images/apple-ipad-mini.png)
 
-Responsiviness Amazon Kindle Fire 
+Device - Amazon Kindle Fire 
 
-![responsiviness amazon kindle fire](/readme-images/amazon-kindle-fire.png)
+![responsiveness amazon kindle fire](/readme-images/amazon-kindle-fire.png)
 
-Responsiviness Samsung Galay Tab 10
+Device - Samsung Galay Tab 10
 
-![responsiviness samsung galaxy tab 10](/readme-images/samsung-galaxy-tab-10.png)
+![responsiveness samsung galaxy tab 10](/readme-images/samsung-galaxy-tab-10.png)
 
-Responsiviness Apple Iphone 6s/7s plus
+Device - Apple Iphone 6s/7s plus
 
-![responsiviness apple iphone 6s/7s plus](/readme-images/apple-iphone-6s-7s-plus.png)
+![responsiveness apple iphone 6s/7s plus](/readme-images/apple-iphone-6s-7s-plus.png)
 
 
 ### 5- Bugs Documentation - Documentation of any bugs encountered and their resolution steps 
 
 * Map not loading when Home page is accessed by the Icon and Home button on top of the page.
 
-When the home button and icon on top of the page was clicked supose to open a fully working map 
+When the home button and icon on top of the page was clicked suppose to open a fully working map 
 in the Home page, the map's functionality was broken, with following error appearing on the console: 
 "Google Maps JavaScript API error: RefererNotAllowedMapError https://developers.google.com/maps/documentation/javascript/error-messages#referer-not-allowed-map-error 
 Your site URL to be authorized: https://caucorrea.github.io/googlemaps-api-ms2/index.html".
-I acessed the Google Clond Plataform and added the https://caucorrea.github.io/googlemaps-api-ms2/index.html to the API restricted access. No alteration on the code was needed.
+I accessed the Google Cloud Platform and added the https://caucorrea.github.io/googlemaps-api-ms2/index.html to the API restricted access. No alteration on the code was needed.
 
-Note: That fixing became obesolete after I've changed the files names in the href attributes for the absolute URL of each page.
-I did that after having problems in 404 error page redirecting the user to the Home page. The link had index.html in it's href attribute.
+Screenshot of broken Map's functionality
+![screenshot map not loading](/readme-images/map-not-loading-index.png)
+
 
 * 404 error page not loading.
 
@@ -194,28 +201,44 @@ In the Slack community I found a pin post about creating the 404 error page, usi
 (permalink: /404.html). Then I deleted the .htaccess file and renamed the html page to 404.html. 
 What seams to be the right way to create a 404 error page.
 
+Screenshot of default page loading instead of customized 404 page
+![screenshot default 404 page](/readme-images/default-404.png)
+
 * 404 error page not redirecting to Home page.
 
 When I access a nonexistent page adding random characters at the end of the URL of the site a 404 error page loads with a message: 
 This page isn't available. Sorry about that. / Click here to go back to the Home Page / 404 error. 
 when I clicked in the link it wasn't been redirecting to the Home page as it supposed to, a default 404 error 
-message was showing up, I tried to search for a solution on Slack Community what was unsuccessful, then I went for tutor assistence, 
+message was showing up, I tried to search for a solution on Slack Community what was unsuccessful, then I went for tutor assistance, 
 the tutor Stephen could identify that the problem was in the link. In the href attribute I added index.html. Instead of redirecting 
 to the Home page it was creating a broken link, once I replaced index.html with the site's absolute URL the problem was solved.
 
 
-### 6- Expected Bugs Documentations - * Documentation of any open bugs Expected -Feature is expected to do X when the user does Y Testing - 
-Tested the feature by doing Y Result - The feature did not respond due to A,B,C or Result - 
-The feature acted as normally and it did Y Fix - I did Z to the code because something was missing
+### 6- Expected Bugs Documentations
 
-* Testing bug with map fuintionality.
-Now home button and Icon are working as expected, loading the homepage, when they are clicked on. No alteration on the code was needed.
+* Bug with map functionality.
 
-* Testing if costum 404 page is loading.
-After doing that the 404 error page started to load when I tried to access a nonexistent page in the site.
+The hotel icon and button on top of the page should redirect the user to the Home page, that feature wasn't working properly for lack of 
+adding index.html in the google maps API restriction access. The problem was fixed with addition of index.html to the autorized 
+URL in google maps credentials. Now home button and Icon are working as expected, loading the homepage, when they are clicked on. 
+No alteration on the code was needed.
 
-* Testing redirecting user to Home page from 404 error message.
-Now the user can go back to the Home page by clicling in the link/message (Click here to go back to the Home Page).
+Map is open with index.html
+![screenshot testing map functionality](/readme-images/map-open-with-indexhtml.png)
+
+
+* Testing if custom 404 page is loading.
+
+After making the error page with the file 404.md the site loads a customized 404 error page in case the user try to access a non-existent
+ page. If that happens the 404 page will load with a message:
+ 
+ - This page isn't available. Sorry about that. / Click here to go back to the Home Page / 404 error. - 
+ 
+ keeping the user in the site and offering explanation with easy way back to the Home page.
+
+
+ 404 error page loaded if tried access non-existent page
+![404 error page loaded](/readme-images/error-page-loaded.png)
 
 
 ## Deployment
