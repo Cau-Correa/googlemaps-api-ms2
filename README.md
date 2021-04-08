@@ -174,7 +174,7 @@ Responsiviness Apple Iphone 6s/7s plus
 
 ### 5- Bugs Documentation - Documentation of any bugs encountered and their resolution steps 
 
-* Map not working when access Home page through the Icon and Home button on top of the page.
+* Map not loading when Home page is accessed by the Icon and Home button on top of the page.
 
 When the home button and icon on top of the page was clicked supose to open a fully working map 
 in the Home page, the map's functionality was broken, with following error appearing on the console: 
@@ -199,7 +199,7 @@ What seams to be the right way to create a 404 error page.
 When I access a nonexistent page adding random characters at the end of the URL of the site a 404 error page loads with a message: 
 This page isn't available. Sorry about that. / Click here to go back to the Home Page / 404 error. 
 when I clicked in the link it wasn't been redirecting to the Home page as it supposed to, a default 404 error 
-message was showing, tried to search for a solution on Slack Community what was unsuccessful, then I went for tutor assistence, 
+message was showing up, I tried to search for a solution on Slack Community what was unsuccessful, then I went for tutor assistence, 
 the tutor Stephen could identify that the problem was in the link. In the href attribute I added index.html. Instead of redirecting 
 to the Home page it was creating a broken link, once I replaced index.html with the site's absolute URL the problem was solved.
 
