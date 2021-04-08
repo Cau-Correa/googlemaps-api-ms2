@@ -138,7 +138,38 @@ Mobile device:
 
 ### 4- Testing Site Responsiveness 
 
-The site responsiviness was tested with the site Testing site responsiveness using a site like https://responsivedesignchecker.com/ 
+This project responsiviness was tested with the site like https://responsivedesignchecker.com/ with 
+visualisation of this project in many devices sizes and brands, like desktops, notebooks, tablets and moliles. 
+This project seams to have no problems in any size or brand keeping with a consistent 
+responsiviness in all of them. Down below I will add screenshot of some of the devices tested.
+
+Responsiviness 24 inches desktop
+
+![responsiviness 24 inches desktop](/readme-images/24-inch-desktop.png)
+
+Responsiviness 19 inches desktop
+
+![responsiviness 19 inches desktop](/readme-images/19-inch-desktop.png)
+
+Responsiviness 13 inches notebook
+
+![responsiviness 13 inches notebook](/readme-images/13-inch-notebook.png)
+
+Responsiviness Apple Ipad mini
+
+![responsiviness apple ipad mini](/readme-images/apple-ipad-mini.png)
+
+Responsiviness Amazon Kindle Fire 
+
+![responsiviness amazon kindle fire](/readme-images/amazon-kindle-fire.png)
+
+Responsiviness Samsung Galay Tab 10
+
+![responsiviness samsung galaxy tab 10](/readme-images/samsung-galaxy-tab-10.png)
+
+Responsiviness Apple Iphone 6s/7s plus
+
+![responsiviness apple iphone 6s/7s plus](/readme-images/apple-iphone-6s-7s-plus.png)
 
 
 ### 5- Bugs Documentation - Documentation of any bugs encountered and their resolution steps 
