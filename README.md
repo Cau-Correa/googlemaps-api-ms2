@@ -68,7 +68,7 @@ Mobile Wireframe
 * JavaScript
 
 
-## Testing - * Testing of all user stories 
+## Testing  
 
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 The Website was tested on Google Chrome, Windows, Linux Opera, and Safari browsers.
@@ -80,39 +80,47 @@ The website was viewed on a variety of devices such as iMac, Dell laptop, iPad A
 #### First Time Visitor Goals
 ##### * As a First Time Visitor, I want to find a hotel in the Republic of Ireland.
 Because the map is already loaded in Ireland the user just needs to type a city and find a hotel to stay.
+
 ![Screenshot UX search in Ireland](/readme-images/user-story-first-time-visitor-1.png)
 
 ##### * As a First Time Visitor, I want to learn where are located the heritage sites in Ireland.
 The map in the Heritage page gives to the user a bird's eye view of all heritage sites in the Republic of Ireland.
-![Screenshot UX bird's eye view heritage sites](/readme-images/user-story-first-time-visitor-2.png) 
 
+![Screenshot UX bird's eye view heritage sites](/readme-images/user-story-first-time-visitor-2.png) 
 
 #### Returning Visitor Goals
 ##### * As a Returning Visitor, I want to get details about hotels in different countries to plan my holidays.
 The user can search in any city and country of their choice.
+
 ![Screenshot UX bird's eye view heritage sites](/readme-images/user-story-returning-visitor-1.png) 
 
 ##### *As a Returning Visitor, I want to increase my knowledge about Ireland culture.
 In the heritage map, the user can find where is a specific site of tourist interest.
 
+![Screenshot UX bird's eye view heritage sites](/readme-images/user-story-returning-visitor-2.png) 
 
 #### Frequent User Goals
 ##### * As a Frequent User, I want to get information like the rating and website of a hotel to decide the best place to stay.
 They can click on a specific mark on the map and see useful information about that hotel.
+
 ![Screenshot UX bird's eye view heritage sites](/readme-images/user-story-frequent-user-1.png) 
 
 
-### 2- Code Validation - * Code validation (CSS/HTML/JS using online tools like https://jigsaw.w3.org/css-validator/ and JSHint) 
+### 2- Code Validation 
 
 To ensure there were no syntax errors in the project, the [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) and [Jshint](https://jshint.com/) were used to validate every page of the project.
 
-* W3C HTML Validator
+* [W3C Markup Validator](https://validator.w3.org/)
+
 All HTML pages of this project went through *W3C Markup validation service*, With no errors to show.
 
-* W3C CSS Validator
-The CSS of this project went through *W3C CSS Validation Service*, With no error found.
-* Jshint
-No errors found.
+* [W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/) 
+
+The CSS of this project went through *W3C CSS Validation Service*, W3C CSS Validator results for TextArea (CSS level 3 + SVG) With no error found.
+
+* [Jshint](https://jshint.com/)
+
+All JavaScript went through JSHint with no errors found.
 
 * Lighthouse Google Chrome Tools 
 
