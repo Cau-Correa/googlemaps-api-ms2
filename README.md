@@ -136,9 +136,9 @@ Mobile device:
 * Manual testing of each section of the site (such as buttons, links etc) 
 
 
-### 4- Testing Site Responsiveness - 
+### 4- Testing Site Responsiveness 
 
-* Testing site responsiveness using a site like https://responsivedesignchecker.com/ 
+The site responsiviness was tested with the site Testing site responsiveness using a site like https://responsivedesignchecker.com/ 
 
 
 ### 5- Bugs Documentation - Documentation of any bugs encountered and their resolution steps 
